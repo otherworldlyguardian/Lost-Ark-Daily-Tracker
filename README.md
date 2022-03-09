@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# Lost Ark Daily Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Looking to build a daily tracker for all of your Lost Ark characters with interactivity. No more simple checklists that don't take into consideration your ilvl or your focus for each character.
+
+## Planned MVP
+
+- Inputs for character name, ilvl, class
+- Add more characters
+- Simple extenisve checklist for each character separately (See https://bit.ly/3hUkbhg for an example)
+- Separate Roster checklist
+- Automatic Daily and Weekly Reset
+- Decent looking CSS
+
+## Current Planned Feature List (To be Implemented)
+
+- Daily and Weekly Reset Times - Customizable
+- Character Planner
+- Import class icons
+- Menu to switch characters
+- Automatic tracker for Procyon's Compass Events
+- Reorganize character checklist for priority order
+- ilvl automatically displays "default" available content
+- Options to turn specific content on or off, per character basis
+- Rename Daily/Weekly Una's to reflect which ones each character does for the day
+- Availability to Import/Export Data
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 
@@ -10,9 +41,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
