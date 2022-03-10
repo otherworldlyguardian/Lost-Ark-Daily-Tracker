@@ -1,23 +1,37 @@
-import './App.css';
+import React from 'react'
+import { Navbar, Button } from 'react-bulma-components'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar>
+        < Navbar.Item href="#" hoverable>
+          <Navbar.Link>Item</Navbar.Link>
+          <Navbar.Dropdown>
+            <Navbar.Item href="#">Subitem 1</Navbar.Item>
+            <Navbar.Item href="#">Subitem 2</Navbar.Item>
+          </Navbar.Dropdown>
+        </Navbar.Item>
+        < Navbar.Item href="#">
+          <Navbar.Link>Item</Navbar.Link>
+          <Navbar.Dropdown>
+            <Navbar.Item href="#">Subitem 1</Navbar.Item>
+            <Navbar.Item href="#">Subitem 2</Navbar.Item>
+          </Navbar.Dropdown>
+        </Navbar.Item>
+        < Navbar.Item href="#">
+          <Navbar.Link>Item</Navbar.Link>
+          <Navbar.Dropdown>
+            <Navbar.Item href="#">Subitem 1</Navbar.Item>
+            <Navbar.Item href="#">Subitem 2</Navbar.Item>
+          </Navbar.Dropdown>
+        </Navbar.Item>
+      </Navbar>
+      <Button color="primary">
+        Hello React - Test
+      </Button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
