@@ -1,35 +1,17 @@
 import React from 'react'
-import { Navbar, Button } from 'react-bulma-components'
+import { Button } from 'react-bulma-components'
+import CharacterCard from './Card'
+import Nav from './Nav'
+import Countdowns from './Select'
 
 function App() {
   return (
     <div className="App">
-      <Navbar>
-        < Navbar.Item href="#" hoverable>
-          <Navbar.Link>Item</Navbar.Link>
-          <Navbar.Dropdown>
-            <Navbar.Item href="#">Subitem 1</Navbar.Item>
-            <Navbar.Item href="#">Subitem 2</Navbar.Item>
-          </Navbar.Dropdown>
-        </Navbar.Item>
-        < Navbar.Item href="#">
-          <Navbar.Link>Item</Navbar.Link>
-          <Navbar.Dropdown>
-            <Navbar.Item href="#">Subitem 1</Navbar.Item>
-            <Navbar.Item href="#">Subitem 2</Navbar.Item>
-          </Navbar.Dropdown>
-        </Navbar.Item>
-        < Navbar.Item href="#">
-          <Navbar.Link>Item</Navbar.Link>
-          <Navbar.Dropdown>
-            <Navbar.Item href="#">Subitem 1</Navbar.Item>
-            <Navbar.Item href="#">Subitem 2</Navbar.Item>
-          </Navbar.Dropdown>
-        </Navbar.Item>
-      </Navbar>
+      <Nav />
       <Button color="primary">
-        Hello React - Test
+        Create New Character
       </Button>
+      <CharacterCard />
     </div>
   )
 }
